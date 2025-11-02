@@ -1,3 +1,15 @@
-"engines": {
-  "node": "22.x"
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "Lightweight self-hosted n8n for Render.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.68.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
 }
